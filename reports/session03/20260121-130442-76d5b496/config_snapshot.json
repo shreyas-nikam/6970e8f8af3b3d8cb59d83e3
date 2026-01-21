@@ -1,0 +1,61 @@
+{
+    "RISK_FACTOR_WEIGHTS": {
+        "decision_criticality": 5,
+        "data_sensitivity": 4,
+        "automation_level": 3,
+        "regulatory_materiality": 5,
+        "model_type_factor": 2
+    },
+    "ATTRIBUTE_SCORES": {
+        "decision_criticality": {
+            "Low": 1,
+            "Medium": 3,
+            "High": 5
+        },
+        "data_sensitivity": {
+            "Public": 1,
+            "Internal": 2,
+            "Confidential": 3,
+            "Regulated-PII": 5
+        },
+        "automation_level": {
+            "Advisory": 1,
+            "Human-Approval": 3,
+            "Fully-Automated": 5
+        },
+        "regulatory_materiality": {
+            "None": 1,
+            "Moderate": 3,
+            "High": 5
+        },
+        "model_type": {
+            "ML": 0,
+            "LLM": 2,
+            "AGENT": 3
+        }
+    },
+    "TIER_THRESHOLDS": {
+        "Tier 1": 22,
+        "Tier 2": 15,
+        "Tier 3": 0
+    },
+    "CONTROL_MAPPING": {
+        "Tier 1": [
+            "Independent Validation Required",
+            "Comprehensive Documentation (Model Requirement Doc, Model Specification Doc, Model Validation Doc)",
+            "Automated Performance Monitoring with Alerting",
+            "Annual Model Review by MRM Committee"
+        ],
+        "Tier 2": [
+            "Internal Peer Review/Challenger Model Validation",
+            "Detailed Documentation (Model Requirement Doc, Model Specification Doc)",
+            "Regular Performance Monitoring",
+            "Biennial Model Review by MRM Committee"
+        ],
+        "Tier 3": [
+            "Self-Attestation by Model Owner",
+            "Basic Documentation (Model Description)",
+            "Ad-hoc Performance Checks"
+        ]
+    }
+}

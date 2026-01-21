@@ -1,0 +1,19 @@
+{
+    "Tier 1": [
+        "Independent Validation Required",
+        "Comprehensive Documentation (Model Requirement Doc, Model Specification Doc, Model Validation Doc)",
+        "Automated Performance Monitoring with Alerting",
+        "Annual Model Review by MRM Committee"
+    ],
+    "Tier 2": [
+        "Internal Peer Review/Challenger Model Validation",
+        "Detailed Documentation (Model Requirement Doc, Model Specification Doc)",
+        "Regular Performance Monitoring",
+        "Biennial Model Review by MRM Committee"
+    ],
+    "Tier 3": [
+        "Self-Attestation by Model Owner",
+        "Basic Documentation (Model Description)",
+        "Ad-hoc Performance Checks"
+    ]
+}

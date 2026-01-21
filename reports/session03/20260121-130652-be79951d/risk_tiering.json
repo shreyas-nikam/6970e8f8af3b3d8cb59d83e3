@@ -1,0 +1,83 @@
+[
+    {
+        "tiering_id": "c5ad43b9-44e6-479b-8dbc-cc0a70cf1c35",
+        "model_id": "4ff42e1d-3ac5-40d9-991f-08c17459faa0",
+        "timestamp": "2026-01-21T13:03:10.285712",
+        "risk_score": 79.0,
+        "risk_tier": "Tier 1",
+        "rationale_json": "\"Model: Credit Risk Scoring Model\\nCalculated Risk Score: 79.00\\nAssigned Risk Tier: Tier 1\\n\\nContribution Breakdown:\\n- Decision Criticality: 'High' (Score: 5, Weight: 5) -> Contribution: 25.00\\n- Data Sensitivity: 'Regulated-PII' (Score: 5, Weight: 4) -> Contribution: 20.00\\n- Automation Level: 'Human-Approval' (Score: 3, Weight: 3) -> Contribution: 9.00\\n- Regulatory Materiality: 'High' (Score: 5, Weight: 5) -> Contribution: 25.00\\n\\n**Reasoning for Tier 1:** This model exhibits very high inherent risk due to its significant impact on critical decisions, handling of regulated and sensitive data, and/or high level of automation, requiring the most stringent governance and validation.\"",
+        "controls_json": "[\"Independent Validation Required\", \"Comprehensive Documentation (Model Requirement Doc, Model Specification Doc, Model Validation Doc)\", \"Automated Performance Monitoring with Alerting\", \"Annual Model Review by MRM Committee\"]"
+    },
+    {
+        "tiering_id": "c878fde0-5c7e-4759-a206-17e226a9ca50",
+        "model_id": "2c475388-fec0-418e-aac0-0dd3f7b531e3",
+        "timestamp": "2026-01-21T13:03:10.291745",
+        "risk_score": 45.0,
+        "risk_tier": "Tier 1",
+        "rationale_json": "\"Model: LLM Compliance Assistant\\nCalculated Risk Score: 45.00\\nAssigned Risk Tier: Tier 1\\n\\nContribution Breakdown:\\n- Decision Criticality: 'Medium' (Score: 3, Weight: 5) -> Contribution: 15.00\\n- Data Sensitivity: 'Internal' (Score: 2, Weight: 4) -> Contribution: 8.00\\n- Automation Level: 'Advisory' (Score: 1, Weight: 3) -> Contribution: 3.00\\n- Regulatory Materiality: 'Moderate' (Score: 3, Weight: 5) -> Contribution: 15.00\\n- Model Type: 'LLM' (Score: 2, Weight: 2) -> Contribution: 4.00\\n\\n**Reasoning for Tier 1:** This model exhibits very high inherent risk due to its significant impact on critical decisions, handling of regulated and sensitive data, and/or high level of automation, requiring the most stringent governance and validation.\"",
+        "controls_json": "[\"Independent Validation Required\", \"Comprehensive Documentation (Model Requirement Doc, Model Specification Doc, Model Validation Doc)\", \"Automated Performance Monitoring with Alerting\", \"Annual Model Review by MRM Committee\"]"
+    },
+    {
+        "tiering_id": "6d08a70d-dcd2-4e66-bcbb-957ed987ee2f",
+        "model_id": "71be6330-26a8-4faf-a4d4-16d1e367b676",
+        "timestamp": "2026-01-21T13:03:10.299525",
+        "risk_score": 31.0,
+        "risk_tier": "Tier 1",
+        "rationale_json": "\"Model: Predictive Maintenance Model\\nCalculated Risk Score: 31.00\\nAssigned Risk Tier: Tier 1\\n\\nContribution Breakdown:\\n- Decision Criticality: 'Medium' (Score: 3, Weight: 5) -> Contribution: 15.00\\n- Data Sensitivity: 'Internal' (Score: 2, Weight: 4) -> Contribution: 8.00\\n- Automation Level: 'Advisory' (Score: 1, Weight: 3) -> Contribution: 3.00\\n- Regulatory Materiality: 'None' (Score: 1, Weight: 5) -> Contribution: 5.00\\n\\n**Reasoning for Tier 1:** This model exhibits very high inherent risk due to its significant impact on critical decisions, handling of regulated and sensitive data, and/or high level of automation, requiring the most stringent governance and validation.\"",
+        "controls_json": "[\"Independent Validation Required\", \"Comprehensive Documentation (Model Requirement Doc, Model Specification Doc, Model Validation Doc)\", \"Automated Performance Monitoring with Alerting\", \"Annual Model Review by MRM Committee\"]"
+    },
+    {
+        "tiering_id": "c9699df9-5d2b-4a30-a020-592d04a6ecc5",
+        "model_id": "6c4b0a07-7da9-446c-a0c1-a6d57e7da050",
+        "timestamp": "2026-01-21T13:04:42.794456",
+        "risk_score": 79.0,
+        "risk_tier": "Tier 1",
+        "rationale_json": "\"Model: Credit Risk Scoring Model\\nCalculated Risk Score: 79.00\\nAssigned Risk Tier: Tier 1\\n\\nContribution Breakdown:\\n- Decision Criticality: 'High' (Score: 5, Weight: 5) -> Contribution: 25.00\\n- Data Sensitivity: 'Regulated-PII' (Score: 5, Weight: 4) -> Contribution: 20.00\\n- Automation Level: 'Human-Approval' (Score: 3, Weight: 3) -> Contribution: 9.00\\n- Regulatory Materiality: 'High' (Score: 5, Weight: 5) -> Contribution: 25.00\\n\\n**Reasoning for Tier 1:** This model exhibits very high inherent risk due to its significant impact on critical decisions, handling of regulated and sensitive data, and/or high level of automation, requiring the most stringent governance and validation.\"",
+        "controls_json": "[\"Independent Validation Required\", \"Comprehensive Documentation (Model Requirement Doc, Model Specification Doc, Model Validation Doc)\", \"Automated Performance Monitoring with Alerting\", \"Annual Model Review by MRM Committee\"]"
+    },
+    {
+        "tiering_id": "24767d84-d586-4d94-9e45-7d75fb72d034",
+        "model_id": "9c314190-53d5-4dea-9d43-ef503b5cb04d",
+        "timestamp": "2026-01-21T13:04:42.802214",
+        "risk_score": 45.0,
+        "risk_tier": "Tier 1",
+        "rationale_json": "\"Model: LLM Compliance Assistant\\nCalculated Risk Score: 45.00\\nAssigned Risk Tier: Tier 1\\n\\nContribution Breakdown:\\n- Decision Criticality: 'Medium' (Score: 3, Weight: 5) -> Contribution: 15.00\\n- Data Sensitivity: 'Internal' (Score: 2, Weight: 4) -> Contribution: 8.00\\n- Automation Level: 'Advisory' (Score: 1, Weight: 3) -> Contribution: 3.00\\n- Regulatory Materiality: 'Moderate' (Score: 3, Weight: 5) -> Contribution: 15.00\\n- Model Type: 'LLM' (Score: 2, Weight: 2) -> Contribution: 4.00\\n\\n**Reasoning for Tier 1:** This model exhibits very high inherent risk due to its significant impact on critical decisions, handling of regulated and sensitive data, and/or high level of automation, requiring the most stringent governance and validation.\"",
+        "controls_json": "[\"Independent Validation Required\", \"Comprehensive Documentation (Model Requirement Doc, Model Specification Doc, Model Validation Doc)\", \"Automated Performance Monitoring with Alerting\", \"Annual Model Review by MRM Committee\"]"
+    },
+    {
+        "tiering_id": "57c77eae-1f57-4cc3-977d-b9a6b46bf110",
+        "model_id": "89700f91-4370-4747-bd40-751269a92ac8",
+        "timestamp": "2026-01-21T13:04:42.808476",
+        "risk_score": 31.0,
+        "risk_tier": "Tier 1",
+        "rationale_json": "\"Model: Predictive Maintenance Model\\nCalculated Risk Score: 31.00\\nAssigned Risk Tier: Tier 1\\n\\nContribution Breakdown:\\n- Decision Criticality: 'Medium' (Score: 3, Weight: 5) -> Contribution: 15.00\\n- Data Sensitivity: 'Internal' (Score: 2, Weight: 4) -> Contribution: 8.00\\n- Automation Level: 'Advisory' (Score: 1, Weight: 3) -> Contribution: 3.00\\n- Regulatory Materiality: 'None' (Score: 1, Weight: 5) -> Contribution: 5.00\\n\\n**Reasoning for Tier 1:** This model exhibits very high inherent risk due to its significant impact on critical decisions, handling of regulated and sensitive data, and/or high level of automation, requiring the most stringent governance and validation.\"",
+        "controls_json": "[\"Independent Validation Required\", \"Comprehensive Documentation (Model Requirement Doc, Model Specification Doc, Model Validation Doc)\", \"Automated Performance Monitoring with Alerting\", \"Annual Model Review by MRM Committee\"]"
+    },
+    {
+        "tiering_id": "ccd046e6-f9e3-45d6-90a7-25ee6ef0da6e",
+        "model_id": "52172413-f8e8-453b-abcd-b6c7c0503d37",
+        "timestamp": "2026-01-21T13:05:21.421104",
+        "risk_score": 79.0,
+        "risk_tier": "Tier 1",
+        "rationale_json": "\"Model: Credit Risk Scoring Model\\nCalculated Risk Score: 79.00\\nAssigned Risk Tier: Tier 1\\n\\nContribution Breakdown:\\n- Decision Criticality: 'High' (Score: 5, Weight: 5) -> Contribution: 25.00\\n- Data Sensitivity: 'Regulated-PII' (Score: 5, Weight: 4) -> Contribution: 20.00\\n- Automation Level: 'Human-Approval' (Score: 3, Weight: 3) -> Contribution: 9.00\\n- Regulatory Materiality: 'High' (Score: 5, Weight: 5) -> Contribution: 25.00\\n\\n**Reasoning for Tier 1:** This model exhibits very high inherent risk due to its significant impact on critical decisions, handling of regulated and sensitive data, and/or high level of automation, requiring the most stringent governance and validation.\"",
+        "controls_json": "[\"Independent Validation Required\", \"Comprehensive Documentation (Model Requirement Doc, Model Specification Doc, Model Validation Doc)\", \"Automated Performance Monitoring with Alerting\", \"Annual Model Review by MRM Committee\"]"
+    },
+    {
+        "tiering_id": "45c98a66-f639-4b3a-9674-4b7bc8f25506",
+        "model_id": "8a779e56-23d8-4c67-bd0d-f752101cb651",
+        "timestamp": "2026-01-21T13:05:21.429173",
+        "risk_score": 45.0,
+        "risk_tier": "Tier 1",
+        "rationale_json": "\"Model: LLM Compliance Assistant\\nCalculated Risk Score: 45.00\\nAssigned Risk Tier: Tier 1\\n\\nContribution Breakdown:\\n- Decision Criticality: 'Medium' (Score: 3, Weight: 5) -> Contribution: 15.00\\n- Data Sensitivity: 'Internal' (Score: 2, Weight: 4) -> Contribution: 8.00\\n- Automation Level: 'Advisory' (Score: 1, Weight: 3) -> Contribution: 3.00\\n- Regulatory Materiality: 'Moderate' (Score: 3, Weight: 5) -> Contribution: 15.00\\n- Model Type: 'LLM' (Score: 2, Weight: 2) -> Contribution: 4.00\\n\\n**Reasoning for Tier 1:** This model exhibits very high inherent risk due to its significant impact on critical decisions, handling of regulated and sensitive data, and/or high level of automation, requiring the most stringent governance and validation.\"",
+        "controls_json": "[\"Independent Validation Required\", \"Comprehensive Documentation (Model Requirement Doc, Model Specification Doc, Model Validation Doc)\", \"Automated Performance Monitoring with Alerting\", \"Annual Model Review by MRM Committee\"]"
+    },
+    {
+        "tiering_id": "500b0e5d-05a3-4e9d-a36f-3918479a6e2e",
+        "model_id": "c3d098a3-f24f-487b-9c4d-73926d8fd7c7",
+        "timestamp": "2026-01-21T13:05:21.435241",
+        "risk_score": 31.0,
+        "risk_tier": "Tier 1",
+        "rationale_json": "\"Model: Predictive Maintenance Model\\nCalculated Risk Score: 31.00\\nAssigned Risk Tier: Tier 1\\n\\nContribution Breakdown:\\n- Decision Criticality: 'Medium' (Score: 3, Weight: 5) -> Contribution: 15.00\\n- Data Sensitivity: 'Internal' (Score: 2, Weight: 4) -> Contribution: 8.00\\n- Automation Level: 'Advisory' (Score: 1, Weight: 3) -> Contribution: 3.00\\n- Regulatory Materiality: 'None' (Score: 1, Weight: 5) -> Contribution: 5.00\\n\\n**Reasoning for Tier 1:** This model exhibits very high inherent risk due to its significant impact on critical decisions, handling of regulated and sensitive data, and/or high level of automation, requiring the most stringent governance and validation.\"",
+        "controls_json": "[\"Independent Validation Required\", \"Comprehensive Documentation (Model Requirement Doc, Model Specification Doc, Model Validation Doc)\", \"Automated Performance Monitoring with Alerting\", \"Annual Model Review by MRM Committee\"]"
+    }
+]

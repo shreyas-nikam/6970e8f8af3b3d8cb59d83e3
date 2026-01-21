@@ -1,0 +1,5 @@
+model_id,model_name,risk_score,risk_tier,created_at,tiering_timestamp
+71be6330-26a8-4faf-a4d4-16d1e367b676,Predictive Maintenance Model,31.0,Tier 1,2026-01-21T13:03:10.295418,2026-01-21T13:03:10.299525
+2c475388-fec0-418e-aac0-0dd3f7b531e3,LLM Compliance Assistant,45.0,Tier 1,2026-01-21T13:03:10.289251,2026-01-21T13:03:10.291745
+4ff42e1d-3ac5-40d9-991f-08c17459faa0,Credit Risk Scoring Model,79.0,Tier 1,2026-01-21T13:03:10.282994,2026-01-21T13:03:10.285712
+d62bd86e-15e4-4550-a3a8-bb4e12786624,Credit Risk Scoring Model,,,2026-01-21T13:03:10.280105,
